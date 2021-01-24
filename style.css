@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#button {
+	display: block;
+	margin-left: 10vw;
+	margin-right: auto;
+	margin-top: 20vh;
+	width: 50%;
+	border: solid black 1em;
+	background-color: #ff7b24;
+}
+#button img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	user-select: none;
+	transition: all 150ms linear;
+	width: 50%;
+
+}
+#valueSec {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2vh;
+	width: 20%;
+	border: solid black 0.5em;
+	background-color: #a3edff;
+	user-select: none;
+}
+#value {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	font-size: 2em;
+}
+
+#perSec {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0.2vh;
+	padding-bottom: 0.2vh;
+	font-size: 1em;
+}
+
+
+#grid {
+	position: absolute;
+	top: 8vh;
+	right: 3vw;
+	display: grid;
+	grid-template-rows: repeat(5, 1fr);
+	grid-template-columns: 5fr 1fr;
+	height: 70vh;
+	width: 30vw;
+	background-color: black;
+	grid-template-areas: 
+	"up1 up1v"
+	"up2 up2v"
+	"up3 up3v"
+	"up4 up4v"
+	"up5 up5v"; 
+	grid-gap: 1em;
+	border: black solid 1em;
+	
+}
+
+#up1 {
+	grid-area: up1;
+	background-color: #d1d3ff;
+	font-size: 2em;
+}
+#up1v {
+	grid-area: up1v;
+	background-color: #fffd91;
+	font-size: 2em;
+}
+#up2 {
+	grid-area: up2;
+	background-color: #d1d3ff;
+	font-size: 2em;
+}
+#up2v {
+	grid-area: up2v;
+	background-color: #fffd91;
+	font-size: 2em;
+}
+#up3 {
+	grid-area: up3;
+	background-color: #d1d3ff;
+	font-size: 2em;
+}
+#up3v {
+	grid-area: up3v;
+	background-color: #fffd91;
+	font-size: 2em;
+}
+#up4 {
+	grid-area: up4;
+	background-color: blue;
+}
+#up4v {
+	grid-area: up4v;
+}
+#up5 {
+	grid-area: up5;
+	background-color: blue;
+}
+#up5v {
+	grid-area: up5v;
+}
+
+
+#grid2 {
+	position: absolute;
+	top: 8vh;
+	left: 3vw;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 5fr 1fr;
+	height: 15vh;
+	width: 30vw;
+	background-color: black;
+	grid-template-areas: 
+	"up1 up1v"; 
+	grid-gap: 1em;
+	border: black solid 1em;
+}
+
+#clickUp {
+	grid-area: up1;
+	background-color: #d1d3ff;
+	font-size: 2em;
+}
+
+#clickUpLvl {
+	grid-area: up1v;
+	background-color: #fffd91;
+	font-size: 2em;
+}

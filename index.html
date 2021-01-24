@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clicker Game</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section id="valueSec">
+		<p id="value">Pogchamps: </p>
+		<p id="perSec">0 pogchamps/second</p>
+	</section>
+	<p onclick="clicked()" id="button"><img src="img/pogchamp.png" id="pog"></p>
+
+	<div id="grid2" onclick="upBuyClick()">
+		<section id="clickUp">Click Value [10]</section>
+		<section id="clickUpLvl">lvl: 1</section>
+	</div>
+	
+	<div id="grid">
+		<section id="up1" onclick="up1Buy()">Generator [10]</section>
+		<section id="up1v"> st</section>
+		<section id="up2"onclick="up2Buy()">Generator [1000]</section>
+		<section id="up2v"> st</section>
+		<section id="up3" onclick="up3Buy()">Generator [50 000]</section>
+		<section id="up3v"> st</section>
+		<section id="up4"></section>
+		<section id="up4v"></section>
+		<section id="up5"></section>
+		<section id="up5v"></section>
+	</div>
+
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
